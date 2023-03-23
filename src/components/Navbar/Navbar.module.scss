@@ -1,0 +1,50 @@
+.root {
+   display: flex;
+   padding: 0px 30px;
+   height: 80px;
+   align-items: center;
+   background: #111112;
+   color: white;
+
+
+
+
+.logo {
+   flex: 1;
+   text-align: left;
+   font-size: 32px;
+   font-weight: 600;
+      color: rgba(227, 220, 220, 0.827);
+   &:hover {
+         color: rgb(213, 213, 213)
+   }
+}
+
+.menu {
+   flex: 1;
+   display: flex;
+   justify-content: center;
+
+   .link {
+      margin: 0 10px;
+      color: rgba(227, 220, 220, 0.827);
+      font-weight: 600;
+      font-size: 18px;
+
+      &:hover {
+         color: rgb(213, 213, 213)
+      }
+      a {
+         padding: 0 10px;
+      }
+      .active {
+         border-bottom: 1px solid white;
+         color: rgb(213, 213, 213)
+      }
+   }
+}
+.search{
+   flex: 1;
+   text-align: right;
+}
+}
